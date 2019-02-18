@@ -1,0 +1,65 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=LSMChizh
+
+[Library]
+LSMChizh=.\LSMChizh.LIB
+
+[$LibMap$]
+LSMChizh=.
+Active_lib=
+
+[Settings]
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+REFRESH_FLOW=1
+FAMILY=
+
+[IMPLEMENTATION]
+UCF=
+
+[Folders]
+Name3=Makefiles
+Directory3=D:\projects\hard\vhdl\TDCS\LSMChizh\
+Extension3=mak
+Name4=Memory
+Directory4=D:\projects\hard\vhdl\TDCS\LSMChizh\src
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=D:\projects\hard\vhdl\TDCS\LSMChizh\
+Extension5=dll
+Name6=PDF
+Directory6=D:\projects\hard\vhdl\TDCS\LSMChizh\
+Extension6=pdf
+Name7=HTML
+Directory7=D:\projects\hard\vhdl\TDCS\LSMChizh\
+Extension7=
+
+[Files]
+/CNetlist_Lib.vhd=-1
+/CNetwork_LIB.vhd=-1
+/LSM.vhd=-1
+/TB.vhd=-1
+/Waveform Editor 1.awf=-1
+
+[Files.Data]
+.\src\CNetlist_Lib.vhd=VHDL Source Code
+.\src\CNetwork_LIB.vhd=VHDL Source Code
+.\src\LSM.vhd=VHDL Source Code
+.\src\TB.vhd=VHDL Source Code
+.\src\Waveform Editor 1.awf=Waveform File
+
