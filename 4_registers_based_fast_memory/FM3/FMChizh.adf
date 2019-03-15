@@ -1,0 +1,71 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=FMChizh
+
+[Library]
+FMChizh=.\FMChizh.LIB
+
+[$LibMap$]
+FMChizh=.
+Active_lib=
+
+[Settings]
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+REFRESH_FLOW=1
+FAMILY=
+
+[IMPLEMENTATION]
+UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=fm|beh|0 random_gen|beh|0
+ShowHide=ShowTopLevel
+Selected=
+
+[Folders]
+Name3=Makefiles
+Directory3=D:\projects\hard\vhdl\TDCS\FMChizh\
+Extension3=mak
+Name4=Memory
+Directory4=D:\projects\hard\vhdl\TDCS\FMChizh\src
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=D:\projects\hard\vhdl\TDCS\FMChizh\
+Extension5=dll
+Name6=PDF
+Directory6=D:\projects\hard\vhdl\TDCS\FMChizh\
+Extension6=pdf
+Name7=HTML
+Directory7=D:\projects\hard\vhdl\TDCS\FMChizh\
+Extension7=
+
+[Files]
+/CNetlist_Lib.vhd=-1
+/CNetwork_LIB.vhd=-1
+/fm.awf=-1
+/FM.vhd=-1
+/FM.bde=-1
+
+[Files.Data]
+.\src\CNetlist_Lib.vhd=VHDL Source Code
+.\src\CNetwork_LIB.vhd=VHDL Source Code
+.\src\fm.awf=Waveform File
+.\src\FM.vhd=VHDL Source Code
+.\src\FM.bde=Block Diagram
+
