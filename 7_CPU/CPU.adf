@@ -1,0 +1,113 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=CPU
+
+[Library]
+CPU=.\CPU.LIB
+
+[$LibMap$]
+CPU=.
+Active_lib=
+
+[Settings]
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+REFRESH_FLOW=1
+FAMILY=
+
+[IMPLEMENTATION]
+UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=pram|pram_beh|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Folders]
+Name3=Makefiles
+Directory3=D:\projects\hard\vhdl\TDCS\CPU\
+Extension3=mak
+Name4=Memory
+Directory4=D:\projects\hard\vhdl\TDCS\CPU\src
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=D:\projects\hard\vhdl\TDCS\CPU\
+Extension5=dll
+Name6=PDF
+Directory6=D:\projects\hard\vhdl\TDCS\CPU\
+Extension6=pdf
+Name7=HTML
+Directory7=D:\projects\hard\vhdl\TDCS\CPU\
+Extension7=
+
+[Files]
+/RISC_CPU.vhd=-1
+/PRAM.vhd=-1
+/risc_cpu_tb.vhd=-1
+/PRAM_SYNT.vhd=-1
+/RISC_ST_CORE.vhd=-1
+/DRAM.vhd=-1
+/INT_CNTRL.vhd=-1
+/PC.vhd=-1
+/ALU.vhd=-1
+/PORT0.vhd=-1
+/RRAM.vhd=-1
+/RISC_lib.vhd=-1
+/CNetlist_Lib.vhd=-1
+/TOC.bde=-1
+/ROC.bde=-1
+/DRAM_SYNT.vhd=-1
+/CNetwork_LIB.vhd=-1
+/DATA.RES=-1
+/data.txt=-1
+/prg.txt=-1
+/Waveform Editor 1.awf=-1
+/RISC_CPU.bde=-1
+/RISC_ST_CORE.bde=-1
+
+[Files.Data]
+.\src\RISC_CPU.vhd=VHDL Source Code
+.\src\PRAM.vhd=VHDL Source Code
+.\src\risc_cpu_tb.vhd=VHDL Source Code
+.\src\PRAM_SYNT.vhd=VHDL Source Code
+.\src\RISC_ST_CORE.vhd=VHDL Source Code
+.\src\DRAM.vhd=VHDL Source Code
+.\src\INT_CNTRL.vhd=VHDL Source Code
+.\src\PC.vhd=VHDL Source Code
+.\src\ALU.vhd=VHDL Source Code
+.\src\PORT0.vhd=VHDL Source Code
+.\src\RRAM.vhd=VHDL Source Code
+.\src\RISC_lib.vhd=VHDL Source Code
+.\src\CNetlist_Lib.vhd=VHDL Source Code
+.\src\TOC.bde=Block Diagram
+.\src\ROC.bde=Block Diagram
+.\src\DRAM_SYNT.vhd=VHDL Source Code
+.\src\CNetwork_LIB.vhd=VHDL Source Code
+.\src\DATA.RES=External File
+.\src\data.txt=Text File
+.\src\prg.txt=Text File
+.\src\Waveform Editor 1.awf=Waveform File
+.\src\RISC_CPU.bde=Block Diagram
+.\src\RISC_ST_CORE.bde=Block Diagram
+
+[file_out:/TOC.bde]
+/..\compile\toc.vhd=-1
+
+[file_out:/ROC.bde]
+/..\compile\roc.vhd=-1
+

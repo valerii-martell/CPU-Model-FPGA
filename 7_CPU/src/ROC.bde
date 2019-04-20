@@ -1,0 +1,141 @@
+SCHM0102
+
+HEADER
+{
+ FREEID 9
+ VARIABLES
+ {
+  #ARCHITECTURE="ROC_V"
+  #BLOCKTABLE_FILE="#HDL2DIAGRAM.bde"
+  #ENTITY="ROC"
+  #LANGUAGE="VHDL"
+  AUTHOR="server"
+  COMPANY="777"
+  CREATIONDATE="26.02.03"
+  SOURCE="C:\\Fndtn\\bin\\risc\\risc_st_core_timesim.vhd"
+ }
+}
+
+PAGE ""
+{
+ PAGEHEADER
+ {
+  PAGESIZE (4232,1822)
+  MARGINS (200,200,200,200)
+  RECT (0,0,0,0)
+ }
+ 
+ BODY
+ {
+  VHDLDESIGNUNITHDR  1, 0, 0
+  {
+   LABEL "Design Unit Header"
+   TEXT 
+"library IEEE;\n"+
+"use IEEE.std_logic_1164.all;\n"+
+"use IEEE.VITAL_Timing.all;"
+   RECT (220,260,629,472)
+   MARGINS (20,20)
+   MULTILINE
+   SYNTAXCOLORED
+   SHOWLABEL
+   SHOWTEXT
+   CORNER 10
+  }
+  ENTITYDECLARATION  2, 0, 0
+  {
+   LABEL "Entity Declaration"
+   TEXT "attribute VITAL_LEVEL0 of ROC : entity is TRUE;"
+   RECT (220,472,897,618)
+   MARGINS (20,20)
+   MULTILINE
+   SYNTAXCOLORED
+   SHOWLABEL
+   SHOWTEXT
+   CORNER 10
+  }
+  ARCHITECTUREDECLARATIONS  3, 0, 0
+  {
+   LABEL "Architecture Declaration"
+   TEXT "attribute VITAL_LEVEL0 of ROC_V : architecture is TRUE;"
+   RECT (220,618,1017,764)
+   MARGINS (20,20)
+   MULTILINE
+   SYNTAXCOLORED
+   SHOWLABEL
+   SHOWTEXT
+   CORNER 10
+  }
+  GENERIC  4, 0, 0
+  {
+   LABEL "Generic 0"
+   TEXT "InstancePath:STRING:=\"*\""
+   RECT (220,837,602,910)
+   MARGINS (20,20)
+   MULTILINE
+   SYNTAXCOLORED
+   SHOWLABEL
+   SHOWTEXT
+   CORNER 10
+  }
+  GENERIC  5, 0, 0
+  {
+   LABEL "Generic 1"
+   TEXT "WIDTH:Time:=100 ns"
+   RECT (220,983,602,1056)
+   MARGINS (20,20)
+   MULTILINE
+   SYNTAXCOLORED
+   SHOWLABEL
+   SHOWTEXT
+   CORNER 10
+  }
+  SIGNALASSIGN  6, 0, 0
+  {
+   LABEL "Statement_1"
+   TEXT 
+"ONE_SHOT : process\n"+
+"  begin\n"+
+"    if (WIDTH <= 0 ns) then\n"+
+"       assert FALSE report\n"+
+"       \"*** Error: a positive value of WIDTH must be specified ***\"\n"+
+"       severity failure;\n"+
+"    else\n"+
+"       wait for WIDTH;\n"+
+"       O <= '0';\n"+
+"    end if;\n"+
+"    wait;\n"+
+"  end process ONE_SHOT;\n"+
+""
+   RECT (220,1129,3691,1202)
+   MARGINS (20,20)
+   MULTILINE
+   SYNTAXCOLORED
+   SHOWLABEL
+   SHOWTEXT
+   CORNER 10
+  }
+  INSTANCE  7, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Output"
+    #INITIAL_VALUE="'1'"
+    #LIBRARY="#terminals"
+    #REFERENCE="O"
+    #SYMBOL="Output"
+    #VHDL_TYPE="std_ulogic"
+   }
+   COORD (3760,240)
+  }
+  TEXT  8, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (3812,240,3812,240)
+   ALIGN 4
+   PARENT 7
+  }
+ }
+ 
+}
+
