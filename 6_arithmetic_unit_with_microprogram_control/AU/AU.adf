@@ -1,0 +1,100 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=AU
+
+[Library]
+AU=.\AU.LIB
+
+[$LibMap$]
+AU=.
+Active_lib=
+
+[Settings]
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+REFRESH_FLOW=1
+FAMILY=
+
+[IMPLEMENTATION]
+UCF=
+
+[Folders]
+Name3=Makefiles
+Directory3=D:\projects\hard\vhdl\TDCS\AU\
+Extension3=mak
+Name4=Memory
+Directory4=D:\projects\hard\vhdl\TDCS\AU\src
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=D:\projects\hard\vhdl\TDCS\AU\
+Extension5=dll
+Name6=PDF
+Directory6=D:\projects\hard\vhdl\TDCS\AU\
+Extension6=pdf
+Name7=HTML
+Directory7=D:\projects\hard\vhdl\TDCS\AU\
+Extension7=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=au_tb|tb_architecture|0
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/CNetlist_Lib.vhd=-1
+/CNetwork_LIB.vhd=-1
+/FM.vhd=-1
+/LSM.vhd=-1
+/LSM.bde=-1
+/MPU.vhd=-1
+/FSM.asf=-1
+/OB.bde=-1
+/AU.vhd=-1
+/tb.vhd=-1
+/au.awf=-1
+/AU.bde=-1
+/au_tb.bde=-1
+/FM.bde=-1
+/MPU.bde=-1
+
+[Files.Data]
+.\src\CNetlist_Lib.vhd=VHDL Source Code
+.\src\CNetwork_LIB.vhd=VHDL Source Code
+.\src\FM.vhd=VHDL Source Code
+.\src\LSM.vhd=VHDL Source Code
+.\src\LSM.bde=Block Diagram
+.\src\MPU.vhd=VHDL Source Code
+.\src\FSM.asf=State Diagram
+.\src\OB.bde=Block Diagram
+.\src\AU.vhd=VHDL Source Code
+.\src\tb.vhd=VHDL Source Code
+.\src\au.awf=Waveform File
+.\src\AU.bde=Block Diagram
+.\src\au_tb.bde=Block Diagram
+.\src\FM.bde=Block Diagram
+.\src\MPU.bde=Block Diagram
+
+[file_out:/LSM.bde]
+/..\compile\lsm.vhd=-1
+
+[file_out:/FSM.asf]
+/..\compile\fsm.vhd=-1
+
+[file_out:/OB.bde]
+/..\compile\ob.vhd=-1
+

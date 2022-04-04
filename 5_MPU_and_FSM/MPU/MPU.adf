@@ -1,0 +1,92 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=MPU
+
+[Library]
+MPU=.\MPU.LIB
+
+[$LibMap$]
+MPU=.
+Active_lib=
+
+[Settings]
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+REFRESH_FLOW=1
+FAMILY=
+
+[IMPLEMENTATION]
+UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=mpu|beh|0 mpu_tb|tb_architecture|0
+ShowHide=ShowTopLevel
+Selected=
+
+[Folders]
+Name3=Makefiles
+Directory3=D:\projects\hard\vhdl\TDCS\MPU\
+Extension3=mak
+Name4=Memory
+Directory4=D:\projects\hard\vhdl\TDCS\MPU\src
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=D:\projects\hard\vhdl\TDCS\MPU\
+Extension5=dll
+Name6=PDF
+Directory6=D:\projects\hard\vhdl\TDCS\MPU\
+Extension6=pdf
+Name7=HTML
+Directory7=D:\projects\hard\vhdl\TDCS\MPU\
+Extension7=
+
+[Files]
+/FSM.vhd=-1
+/OB.vhd=-1
+/CNetlist_Lib.vhd=-1
+/CNetwork_LIB.vhd=-1
+/MPU.vhd=-1
+/ob.awf=-1
+/fsm.awf=-1
+/OB.bde=-1
+/FSM.asf=-1
+/MPU.bde=-1
+/mpu.awf=-1
+
+[Files.Data]
+.\src\FSM.vhd=VHDL Source Code
+.\src\OB.vhd=VHDL Source Code
+.\src\CNetlist_Lib.vhd=VHDL Source Code
+.\src\CNetwork_LIB.vhd=VHDL Source Code
+.\src\MPU.vhd=VHDL Source Code
+.\src\ob.awf=Waveform File
+.\src\fsm.awf=Waveform File
+.\src\OB.bde=Block Diagram
+.\src\FSM.asf=State Diagram
+.\src\MPU.bde=Block Diagram
+.\src\mpu.awf=Waveform File
+
+[file_out:/OB.bde]
+/..\compile\ob.vhd=-1
+
+[file_out:/FSM.asf]
+/..\compile\fsm.vhd=-1
+
+[file_out:/MPU.bde]
+/..\compile\mpu.vhd=-1
+

@@ -1,0 +1,77 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=AUBurach
+
+[Library]
+AUBurach=.\AUBurach.LIB
+
+[$LibMap$]
+AUBurach=.
+Active_lib=
+
+[Settings]
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+REFRESH_FLOW=1
+FAMILY=
+
+[IMPLEMENTATION]
+UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=au_tb|tb_architecture|0
+ShowHide=ShowTopLevel
+Selected=
+
+[Folders]
+Name3=Makefiles
+Directory3=D:\projects\hard\vhdl\TDCS\AUBurach\
+Extension3=mak
+Name4=Memory
+Directory4=D:\projects\hard\vhdl\TDCS\AUBurach\src
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=D:\projects\hard\vhdl\TDCS\AUBurach\
+Extension5=dll
+Name6=PDF
+Directory6=D:\projects\hard\vhdl\TDCS\AUBurach\
+Extension6=pdf
+Name7=HTML
+Directory7=D:\projects\hard\vhdl\TDCS\AUBurach\
+Extension7=
+
+[Files]
+/au.awf=-1
+/AU.vhd=-1
+/CNetlist_Lib.vhd=-1
+/CNetwork_LIB.vhd=-1
+/FM.vhd=-1
+/LSM.vhd=-1
+/MPU.vhd=-1
+/tb.vhd=-1
+
+[Files.Data]
+.\src\au.awf=Waveform File
+.\src\AU.vhd=VHDL Source Code
+.\src\CNetlist_Lib.vhd=VHDL Source Code
+.\src\CNetwork_LIB.vhd=VHDL Source Code
+.\src\FM.vhd=VHDL Source Code
+.\src\LSM.vhd=VHDL Source Code
+.\src\MPU.vhd=VHDL Source Code
+.\src\tb.vhd=VHDL Source Code
+

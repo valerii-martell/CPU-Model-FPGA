@@ -1,0 +1,78 @@
+$WAVE4
+$RESOLUTION 1000
+$ENDTIME 5000000
+I 1 "c#3#bitc2 01"
+$S 1 1 C -1 0 4616333450000
+$S 2 1 RST -1 0 4616333450000
+I 2 "a#23#BIT_VECTOR(15 downto 0)1 ricd15 0 c#3#bitc2 01"
+$BUS S 3 2 16 DA -1 0 4616333450000
+$SC 4-19
+$BUS S +1 2 16 DB -1 0 4616333450000
+$SC +1-36
+$S +1 1 START -1 0 4616333450000
+$S +1 1 RDY -1 0 4616333450000
+$S +1 1 OUTHL -1 0 4616333450000
+$S +1 1 N -1 0 4616333450000
+$S +1 1 Z -1 0 4616333450000
+I 3 "a#23#BIT_VECTOR(14 downto 0)1 ricd14 0 c#3#bitc2 01"
+$BUS S +1 3 15 DP -1 0 4616333450000
+$SC +1-57
+I 4 "a#21#UNSIGNED(29 downto 0)1 ricd29 0 c#3#bitc2 01"
+$BUS S +1 4 30 "U_OP/S"
+$SC +1-88
+$BUS S +1 4 30 5 0 P
+$SC +1-+29
+I 5 "a#23#BIT_VECTOR(29 downto 0)1 ricd29 0 c#3#bitc2 01"
+$BUS S +1 5 30 5 0 A
+$SC +1-+29
+$BUS S +1 3 15 5 0 B
+$SC +1-+14
+I 6 "c#7#st_types6 ststart st1 st2 st3 st4 stfinish "
+$S +1 6 "U_FSM/st"
+$OUT +1 1 6 0 LAB
+$IN +1 1 2 4 OP
+$IN +1 1 5 0 SHIFT
+$OUT +1 1 2 6 FSM
+$IN +1 1 "U_OP/ADD"
+$OUT +1 1 2 4 FSM
+$OUT +1 1 "U_OP/B0"
+$IN +1 1 2 3 FSM
+$OUT +1 1 "U_OP/STOP"
+$IN +1 1 2 5 FSM
+$IN +1 1 "U_OP/REZ"
+$OUT +1 1 2 4 FSM
+P 0 1-179 CS "0"
+P 0 3 58 Radix "16"
+P 0 42 89-+62/31 Radix "2"
+P 0 1 Stimulator "CLK:FRM:Override:100.000000;2;1;0;50;1:Clock:1:"
+P 0 39 Stimulator "KEY:KEY:Override:79/0,1:O:1:"
+P 0 2 Stimulator "KEY:KEY:Override:82/0,1:R:1:"
+P 0 37 Stimulator "KEY:KEY:Override:83/0,1:S:1:"
+P 0 3 20 Stimulator "VAL:FRM:Override:1000000000001011:<= 1000000000001011:1:"
+$WAVES 1
+=0 T 0
+R 1 92326669 =1 T 50k
+$VALUES
+R 2 46163335 0 1
+$END
+$WAVES 2 5-15 +2 +5-32 +2 +3-+3 +3-57
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES 4 16 +2 +1 +2 33 +2 +1
+*0
+$VALUES
+V 1
+1
+$END
+$WAVES +5
+*0
+=2 D 0 1
+$VALUES
+V 2
+0
+1
+$END
+$ENDWAVE
