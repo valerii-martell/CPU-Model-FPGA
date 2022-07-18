@@ -1,5 +1,7 @@
 # CPU Model FPGA (VHDL)
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/bb9957dba6134edf80206e87f05453aa)](https://www.codacy.com/gh/valerii-martell/CPU-Model-FPGA/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=valerii-martell/CPU-Model-FPGA&amp;utm_campaign=Badge_Grade)
+
 16-bit RISC processor core model in VHDL. All including components and testbenches tested on both Xilinx and Altera boards.
 
 The project includes the following subprojects (in various implementation variations), each of which is part of the final processor core:
